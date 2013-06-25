@@ -1,0 +1,11 @@
+Release Notes
+Version 1.0
++ Added the Requirements Document
+Comments:
+
+1. Investigate on usefulness/need for this app. Talk to pharmicists or health professionals 
+2. Change app name to single name that reflects the functionality or use of the app. 
+3. Rewrite objectives in the requirements documents as discussed during our lab meeting (why do you need this app?)
+4. Update the "statement of functionality". Give an overview of the project before explaining features.
+5. Start thinking about how to create a database. Manual creation is tedious and time-consuming. Look for pointers/resources in NIH and CDC websites.
+6. Research on other apps that are similar to yours and update the requirements document under "replacement of legacy systems"

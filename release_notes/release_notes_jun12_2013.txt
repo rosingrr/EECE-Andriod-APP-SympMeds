@@ -1,0 +1,26 @@
+Release Notes 
+June 12, 2013
+
+
+
+Comments:
+
+REMEMBER to checkin release notes for every release. I had to add one for this release.
+
+Requirements Document:
+1. Incomplete requirements document
+
+Specification Document:
+1. User stories are important!! Include/Update them. Stories should be simple and should reflect the "task-in-hand"
+
+Next steps:
+1. Clean up basic UI.
+2. Write unit test cases for modules you have implemented so far (use user stories to identify test scenarios). 
+3. Henceforth, Write unit test cases before you implement a module/scenario (specifically, for issues that you currently have)
+4. Include comments in javadoc style to all java source files (This is mandatory!)
+5. Include comments to .xml files. 
+6. Create a database skeleton
+
+Good job on basic UI. It is important that you work as a team. Research and work as A TEAM (pair). Each team member should contribute towards both coding and documentation.
+
+Keep up the good work, so far
