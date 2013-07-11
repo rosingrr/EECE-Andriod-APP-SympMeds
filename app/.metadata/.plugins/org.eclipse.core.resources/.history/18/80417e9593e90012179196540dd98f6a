@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="null"></string>
+    <string name="app_name">SympMeds</string>
+    <string name="action_settings">Settings</string>
+    <string name="description">This app allows you to search for medication by the symptom you are experiencing.</string>
+    <string name="med_name">enter name of medication</string>
+    <string name="search">Search</string>
+    <string name="symptom_selector">select the symptom</string>
+
+    <string-array name="symptom_list">
+        <item>fevor</item>
+        <item>headache</item>
+        <item>coughing</item>
+        <item>cold</item>
+        <item>flu</item>
+    </string-array>
+
+    <string name="title_activity_drug_list">DrugList</string>
+    <string name="instructions">Choose the drug from the list to get information on it.</string>
+    <string name="get_info">Get Info</string>
+    <string name="drug_selector">choose drug</string>
+
+    <string-array name="drug_list">
+        <item>demo drug</item>
+    </string-array>
+    
+    <string-array name="fever_list">
+        <item>Advil</item>
+    </string-array>
+    
+    <string-array name="headache_list">
+        <item>Tylenol</item>
+    </string-array>
+    
+    <string-array name="coughing_list">
+        <item>Vicks</item>
+    </string-array>
+    
+    <string-array name="cold_list">
+        <item>Robitussin</item>
+    </string-array>
+    
+    <string-array name="flu_list">
+        <item>Sudafed</item>
+    </string-array> 
+    
+    <string name="title_activity_drug_info">DrugInfo</string>
+    <string name="drug_name">demo drug</string>
+    <string name="treats">Symptoms it treats:</string>
+    <string name="problems">Potential side-effects:</string>
+    <string name="how_to">Directions of use:</string>
+    <string name="unknown">unknown</string>
+
+</resources>

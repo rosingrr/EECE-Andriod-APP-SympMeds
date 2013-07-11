@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="transparent_red">#ffff0000</color>
+    <color name="steel_blue">#ff4682B4</color>
+    <color name="crimson">#ffdc143c</color>
+    <color name="sea_green">#ff2e8b57</color>
+    <color name="aqua_marine">#ff7fffd4</color>
+    <color name="white">#ffffffff</color>
+    <color name="darker_aqua_marine">#ff3f7f6a</color>
+    <color name="color1">#ff66cccc</color>
+    <color name="color2">#ff33cccc</color>
+    <color name="color3">#ff00cccc</color>
+</resources>
