@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.example.sympmeds.DrugList"/>
-<fullyQualifiedTypeName name="com.example.sympmeds.R.array"/>
 <fullyQualifiedTypeName name="com.example.sympmeds.R.string"/>
+<fullyQualifiedTypeName name="com.example.sympmeds.R.array"/>
+<fullyQualifiedTypeName name="com.example.sympmeds.MainActivity"/>
 </qualifiedTypeNameHistroy>

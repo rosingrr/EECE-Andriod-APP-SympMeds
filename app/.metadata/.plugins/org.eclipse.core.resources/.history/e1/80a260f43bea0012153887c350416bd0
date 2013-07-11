@@ -21,13 +21,13 @@ public class DrugList extends Activity {
 		super.onCreate(savedInstanceState);
 		
 		// Get the symptom from the intent; this area is not done
-		//Intent intent = getIntent();
-		//String symptom = intent.getStringExtra(MainActivity.DRUG_LIST);
+		Intent intent = getIntent();
+		String symptom = intent.getStringExtra(MainActivity.DRUG_LIST);
 		
 		setContentView(R.layout.activity_drug_list);
 		
 		String[] drugList = getResources().getStringArray(R.array.symptom_list);
-		String symptom = drugList[0];
+		//String symptom = drugList[0];
         Spinner spinner = (Spinner) findViewById(R.id.spinner2);
         ArrayAdapter<CharSequence> adapter;
         TextView myTextName = (TextView) findViewById(R.id.textView2);

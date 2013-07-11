@@ -16,7 +16,7 @@ public class DrugListTest extends ActivityInstrumentationTestCase2<DrugList> {
     private DrugList mActivity;		// the activity under test
     private TextView mViewName;			// the activity's TextView (for the symptom name)
     private TextView mViewDescription;			// the activity's TextView (for the symptom description)
-    private String original;	// the original string the textviews have before starting up
+    private String none;	// an empty string
 
     
 	/**
@@ -34,7 +34,7 @@ public class DrugListTest extends ActivityInstrumentationTestCase2<DrugList> {
         mActivity = this.getActivity(); //DrugList
         mViewName = (TextView) mActivity.findViewById(com.example.sympmeds.R.id.textView2);
         mViewDescription = (TextView) mActivity.findViewById(com.example.sympmeds.R.id.textView3);
-        original = mActivity.getString(com.example.sympmeds.R.string.unknown);	//the starting string of the textViews
+        none = "";	//the starting string of the textViews
 	}
 
 	/* 
@@ -49,14 +49,14 @@ public class DrugListTest extends ActivityInstrumentationTestCase2<DrugList> {
 	 * makes sure the textView with the symptom's name is updated
 	 */
     public void testTextName() {
-        assertFalse(original.equals((String)mViewName.getText()));
+        assertFalse(none.equals((String)mViewName.getText()));
     }
     
     /* 
 	 * makes sure the textView with the symptom's description is updated
 	 */
     public void testTextDescription() {
-        assertFalse(original.equals((String)mViewDescription.getText()));
+        assertFalse(none.equals((String)mViewDescription.getText()));
     }
     
 	/* (non-Javadoc)
