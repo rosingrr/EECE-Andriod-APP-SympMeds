@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 public class DrugList extends Activity {
 	public final static String DRUG_INFO = "com.example.sympmeds.INFO";
@@ -25,27 +26,37 @@ public class DrugList extends Activity {
 		
 		setContentView(R.layout.activity_drug_list);
 		
-		String[] list = getResources().getStringArray(R.array.symptom_list);
+		String[] drugList = getResources().getStringArray(R.array.symptom_list);
         Spinner spinner = (Spinner) findViewById(R.id.spinner2);
         ArrayAdapter<CharSequence> adapter;
-        if(symptom.equals(list[0])) {
+        TextView myTextName = (TextView) findViewById(R.id.textView2);
+        TextView myTextDescription = (TextView) findViewById(R.id.textView3);
+        myTextName.setText(symptom);
+        String[] descList = getResources().getStringArray(R.array.symptom_description);
+        if(symptom.equals(drugList[0])) {
         	adapter= ArrayAdapter.createFromResource(
         			this, R.array.fever_list, android.R.layout.simple_spinner_item);
-        } else if(symptom.equals(list[0])) {
+        	myTextDescription.setText(descList[0]);
+        } else if(symptom.equals(drugList[1])) {
         	adapter= ArrayAdapter.createFromResource(
         			this, R.array.headache_list, android.R.layout.simple_spinner_item);
-        } else if(symptom.equals(list[0])) {
+        	myTextDescription.setText(descList[1]);
+        } else if(symptom.equals(drugList[2])) {
         	adapter= ArrayAdapter.createFromResource(
-        			this, R.array.coughing_list, android.R.layout.simple_spinner_item);        	
-        } else if(symptom.equals(list[0])) {
+        			this, R.array.coughing_list, android.R.layout.simple_spinner_item);
+        	myTextDescription.setText(descList[2]);
+        } else if(symptom.equals(drugList[3])) {
         	adapter= ArrayAdapter.createFromResource(
         			this, R.array.cold_list, android.R.layout.simple_spinner_item);
-        } else if(symptom.equals(list[0])) {
+        	myTextDescription.setText(descList[3]);
+        } else if(symptom.equals(drugList[4])) {
         	adapter= ArrayAdapter.createFromResource(
         			this, R.array.flu_list, android.R.layout.simple_spinner_item);
+        	myTextDescription.setText(descList[4]);
         } else {
         	adapter= ArrayAdapter.createFromResource(
         			this, R.array.drug_list, android.R.layout.simple_spinner_item);
+        	myTextDescription.setText(R.string.unknown);
         }
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);

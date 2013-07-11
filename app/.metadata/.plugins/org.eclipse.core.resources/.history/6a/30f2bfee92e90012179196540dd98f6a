@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+package com.example.sympmeds.test;
+
+import com.example.sympmeds.DrugList;
+import android.test.ActivityInstrumentationTestCase2;
+import android.widget.TextView;
+
+/**
+ * @author Randy
+ *
+ */
+public class DrugListTest extends ActivityInstrumentationTestCase2<DrugList> {
+
+    private DrugList mActivity;		// the activity under test
+    private TextView mViewName;			// the activity's TextView (for the symptom name)
+    private TextView mViewDescription;			// the activity's TextView (for the symptom description)
+
+    
+	/**
+	 * 
+	 */
+	public DrugListTest() {
+		super(DrugList.class);
+	}
+
+	/* (non-Javadoc)
+	 * @see android.test.ActivityInstrumentationTestCase2#setUp()
+	 */
+	protected void setUp() throws Exception {
+		super.setUp();
+        mActivity = this.getActivity();
+        mViewName = (TextView) mActivity.findViewById(com.example.sympmeds.R.id.textView2);
+        mViewDescription = (TextView) mActivity.findViewById(com.example.sympmeds.R.id.textView3);
+	}
+
+	/* (non-Javadoc)
+	 * @see android.test.ActivityInstrumentationTestCase2#tearDown()
+	 */
+	protected void tearDown() throws Exception {
+		super.tearDown();
+	}
+
+}
