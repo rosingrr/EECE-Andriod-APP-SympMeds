@@ -1,3 +1,21 @@
 Release Notes July 10
 updated the specifications document
 have a test implemented
+
+
+Comments of implementation/testing:
+
+1. Move database from xml to excel. 
+2. Milena: Create new "home page" activity as discussed. Clean-up UI. Write simple test cases. Expand the data set. I would like to see more contribution from you towards "team effort".
+3. Continue writing test cases. 
+
+Good job on the getting the database up and running. Looking forward to see more progress in the next release. 
+
+Comments on documentation:
+
+1. Move test plan to an excel sheet
+2. The following is missing in the specs. document.
+
+"Create a table in the specification document that includes the release name and number, release date, the percentage of tests passed/failed and the code coverage."
+
+3. Add productivity chart (timeline/milestones) to the req. doc. 
