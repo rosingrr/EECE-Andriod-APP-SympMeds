@@ -1,0 +1,9 @@
+Comments:
+
+1. Make sure to check-in release notes so that I can add comments (I had to create one)
+
+3. Your team is lagging behind in both implementation and testing. You should start putting in a lot of time/work, if you would like to complete the project in time. Don't wait till the last minute to get things done. I hope to see some progess made in the next release.
+4. Continue to do code review, document/comment any code you write, start writing test cases.
+5. You should have some kind database set-up by the next release.
+
+Good Luck! Nice job on the design review presentation.
