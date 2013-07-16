@@ -30,6 +30,10 @@
             android:name="com.example.sympmeds.DrugInfo"
             android:label="@string/title_activity_drug_info" >
         </activity>
+        <activity
+            android:name="com.example.sympmeds.SymptomListActivity"
+            android:label="@string/title_activity_symptom_list" >
+        </activity>
     </application>
 
 </manifest>

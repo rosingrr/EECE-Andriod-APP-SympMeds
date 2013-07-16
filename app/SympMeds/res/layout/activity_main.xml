@@ -9,30 +9,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
+        android:text="@string/start"
+        android:onClick="start" />
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/description" />
-
-    <Button
-        android:id="@+id/button1"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/spinner1"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="82dp"
-        android:text="@string/search"
-        android:onClick="openList" />
-
-    <Spinner
-        android:id="@+id/spinner1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="15dp"
-        android:prompt="@string/symptom_selector" />
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:text="@string/description"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </RelativeLayout>

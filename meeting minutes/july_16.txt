@@ -1,0 +1,2 @@
+Tuesday July , 2013
+Added activity to beginning but there is still a bug that shuts down the app when it tries to pull up the next activity.
