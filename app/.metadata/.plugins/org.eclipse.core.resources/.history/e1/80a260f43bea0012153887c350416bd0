@@ -22,7 +22,7 @@ public class DrugList extends Activity {
 		
 		// Get the symptom from the intent; this area is not done
 		Intent intent = getIntent();
-		String symptom = intent.getStringExtra(SymptomList.DRUG_LIST);
+		String symptom = intent.getStringExtra(MainActivity.DRUG_LIST);
 		
 		setContentView(R.layout.activity_drug_list);
 		

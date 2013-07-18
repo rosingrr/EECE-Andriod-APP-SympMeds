@@ -3,12 +3,11 @@ package com.example.sympmeds;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 
 public class MainActivity extends Activity {
-	//public final static String SYMPTOM_LIST = "com.example.sympmeds.LIST";
+	public final static String SYMPTOM_LIST = "com.example.sympmeds.LIST";
 	
 	/**onCreate() is called when the MainActivity activity is started,
 	 * which is at the start of the application.
@@ -18,7 +17,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.i("SYMPMED","Main onCreate");
+
     }
 
     /**
@@ -37,13 +36,11 @@ public class MainActivity extends Activity {
      */
     public void start(View view) {
     	// Do something in response to button}
-    	Log.i("SYMPMED","main start1");
 		Intent intent = new Intent(this, SymptomList.class);
-		//String blank = getResources().getString(R.string.app_name);
-		//intent.putExtra(SYMPTOM_LIST, blank);
-		Log.i("SYMPMED","main start2");
+		String blank = getResources().getString(R.string.app_name);
+		intent.putExtra(SYMPTOM_LIST, blank);
+		
 		startActivity(intent);
-		Log.i("SYMPMED","main start3");
     }
     
 }

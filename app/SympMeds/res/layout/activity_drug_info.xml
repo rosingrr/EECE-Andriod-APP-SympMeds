@@ -10,70 +10,70 @@
     tools:context=".DrugInfo" >
 
     <TextView
-        android:id="@+id/dirLabel_textView"
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/drugSE_textView"
+        android:layout_below="@+id/textView5"
         android:layout_marginTop="28dp"
         android:text="@string/how_to"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
-        android:id="@+id/sympLabel_textView"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/drugName_textView"
+        android:layout_below="@+id/textView1"
         android:layout_marginTop="15dp"
         android:text="@string/treats"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
-        android:id="@+id/seLabel_textView"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/sympLabel_textView"
-        android:layout_below="@+id/drugSymp_textView"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView3"
         android:layout_marginTop="20dp"
         android:text="@string/problems"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
-        android:id="@+id/drugSymp_textView"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/seLabel_textView"
-        android:layout_below="@+id/sympLabel_textView"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView2"
         android:layout_marginLeft="18dp"
         android:layout_marginTop="23dp"
         android:text="@string/unknown"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <TextView
-        android:id="@+id/drugSE_textView"
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/drugSymp_textView"
+        android:layout_alignLeft="@+id/textView3"
         android:layout_centerVertical="true"
         android:text="@string/unknown"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <TextView
-        android:id="@+id/drugDirofUse_textView"
+        android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/drugSE_textView"
-        android:layout_below="@+id/dirLabel_textView"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/textView6"
         android:layout_marginTop="22dp"
         android:text="@string/unknown"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <TextView
-        android:id="@+id/drugName_textView"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/sympLabel_textView"
+        android:layout_alignLeft="@+id/textView2"
         android:layout_alignParentTop="true"
         android:layout_marginTop="20dp"
         android:text="@string/drug_name"

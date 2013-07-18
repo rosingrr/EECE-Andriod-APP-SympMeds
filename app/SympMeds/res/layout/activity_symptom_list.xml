@@ -7,31 +7,31 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".SymptomList" >
+    tools:context=".SymptomListActivity" >
 
     <TextView
-        android:id="@+id/symDir_textView"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/description" />
 
     <Button
-        android:id="@+id/search_button"
+        android:id="@+id/button1"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/symptom_spinner"
-        android:layout_below="@+id/symDir_textView"
+        android:layout_alignLeft="@+id/spinner1"
+        android:layout_below="@+id/textView1"
         android:layout_marginTop="82dp"
         android:text="@string/search"
         android:onClick="openList" />
 
     <Spinner
-        android:id="@+id/symptom_spinner"
+        android:id="@+id/spinner1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/symDir_textView"
-        android:layout_below="@+id/symDir_textView"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
         android:layout_marginTop="15dp"
         android:prompt="@string/symptom_selector" />
 
