@@ -1,5 +1,14 @@
 package com.example.sympmeds;
+/*
+import java.io.File;
+import java.io.IOException;
 
+import jxl.Cell;
+import jxl.CellType;
+import jxl.Sheet;
+import jxl.Workbook;
+import jxl.read.biff.BiffException;
+*/
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,6 +27,7 @@ public class SymptomList extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //Intent intent = getIntent();
         setContentView(R.layout.activity_main);
         
         Spinner spinner = (Spinner) findViewById(R.id.spinner1);

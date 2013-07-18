@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
     public void start(View view) {
     	// Do something in response to button}
 		Intent intent = new Intent(this, SymptomList.class);
-		String blank = getResources().getString(R.string.empty);
+		String blank = getResources().getString(R.string.app_name);
 		intent.putExtra(SYMPTOM_LIST, blank);
 		
 		startActivity(intent);

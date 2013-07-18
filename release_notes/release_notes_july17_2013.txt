@@ -1,0 +1,2 @@
+Added the intro activity but it is currently causing problems.
+Also downloaded and looked into how to use excel api but we are also having problems with it.
