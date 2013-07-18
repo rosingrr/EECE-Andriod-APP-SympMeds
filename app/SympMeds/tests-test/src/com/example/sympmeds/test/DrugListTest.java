@@ -32,8 +32,8 @@ public class DrugListTest extends ActivityInstrumentationTestCase2<DrugList> {
 	protected void setUp() throws Exception {
 		super.setUp(); // calls the superclass's setUp()
         mActivity = this.getActivity(); //DrugList
-        mViewName = (TextView) mActivity.findViewById(com.example.sympmeds.R.id.textView2);
-        mViewDescription = (TextView) mActivity.findViewById(com.example.sympmeds.R.id.textView3);
+        mViewName = (TextView) mActivity.findViewById(com.example.sympmeds.R.id.symName_textView);
+        mViewDescription = (TextView) mActivity.findViewById(com.example.sympmeds.R.id.sympDesc_textView);
         original = mActivity.getString(com.example.sympmeds.R.string.unknown);	//the starting string of the textViews
 	}
 

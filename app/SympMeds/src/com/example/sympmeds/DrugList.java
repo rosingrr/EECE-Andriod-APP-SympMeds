@@ -28,10 +28,10 @@ public class DrugList extends Activity {
 		
 		String[] drugList = getResources().getStringArray(R.array.symptom_list);
 		//String symptom = drugList[0];
-        Spinner spinner = (Spinner) findViewById(R.id.spinner2);
+        Spinner spinner = (Spinner) findViewById(R.id.drug_spinner);
         ArrayAdapter<CharSequence> adapter;
-        TextView myTextName = (TextView) findViewById(R.id.textView2);
-        TextView myTextDescription = (TextView) findViewById(R.id.textView3);
+        TextView myTextName = (TextView) findViewById(R.id.symName_textView);
+        TextView myTextDescription = (TextView) findViewById(R.id.sympDesc_textView);
         myTextName.setText(symptom);
         String[] descList = getResources().getStringArray(R.array.symptom_description);
         if(symptom.equals(drugList[0])) {
@@ -80,7 +80,7 @@ public class DrugList extends Activity {
     public void getInfo (View view) {
     	// Do something in response to button}
 		Intent intent = new Intent(this, DrugInfo.class);
-		Spinner spinner = (Spinner) findViewById(R.id.spinner2);
+		Spinner spinner = (Spinner) findViewById(R.id.drug_spinner);
 		String text = spinner.getSelectedItem().toString();
 		try {
 			intent.putExtra(DRUG_INFO, text);
