@@ -1,2 +1,24 @@
 Added the intro activity but it is currently causing problems.
 Also downloaded and looked into how to use excel api but we are also having problems with it.
+
+Comments:
+
+1. First, fix version control issues. Your team may not use this as an excuse for the next release.
+2. I didn't see any visible from the last release, and the following tasks are still pending
+	a) Milena: Create new "home page" activity as discussed. Clean-up UI. Write simple test cases. Expand the data set. I would like to see more contribution from you towards "team effort".
+	b) New test cases. 
+	c) Do code reviews
+
+3. Get excel api to work
+
+Comments on documentation:
+
+The following are incomplete too (or I don't see it checked-in):
+
+1. Move test plan to an excel sheet
+2. The following is missing in the specs. document.
+
+"Create a table in the specification document that includes the release name and number, release date, the percentage of tests passed/failed and the code coverage."
+
+3. Add productivity chart (timeline/milestones) to the req. doc. 
+4. User story for beta 0.2 missing.
